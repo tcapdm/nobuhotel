@@ -1,0 +1,145 @@
+body {font:400 15px/25px 'open sans', arial, sans-serif;overflow-x:hidden;}
+#top {padding:5px 3px;position:fixed;bottom:20px;right:20px;display:none;cursor:pointer;z-index:10;color: #fc3f2f;font-size:35px;}
+#camera_wrap_2{display:none !important;}
+#camera_wrap_1{display:block !important;}
+
+.nicescroll-cursors {opacity:0;}
+
+.banner {position:relative;overflow:hidden;}
+.banner_container{overflow:hidden}
+.header {position:fixed;top:0;left:0;background:url("../images/headerBg.jpg") repeat;padding:1rem 0 0;width:210px;z-index:9;}
+.headerInner {position:relative;text-align:center;padding-top:2rem;}
+.logo {display:block;text-align:center;margin-bottom:30px;position:relative;}
+.logo:after {content:'';display:block;position:absolute;bottom:-50px;left:15px;width:151px;height:35px;background:url('../images/white-sparator.png')no-repeat}
+
+.navigation {margin-top:80px;}
+
+.nav1{}
+.nav1 ul{margin:0;padding:0;}
+.nav1 ul li{list-style:none;display:block;border-bottom:1px solid #625088;margin:0 15px 10px;}
+.nav1 ul li:last-child{border-bottom:0;}
+.nav1 ul li a{font-size:14px;font-weight:400;text-transform:uppercase;display:block;color:#A49DB3;margin-bottom:10px;text-decoration: none;transition: all 500ms ease-in-out;line-height:20px;text-align:right;}
+.nav1 ul li:hover a {color:#fff;}
+
+.footer {position:absolute;bottom:20px;margin:0 30px;}
+.footer p:before{content:'';display:block;position:absolute;top:80px;left:0;width:151px;height:35px;background:url('../images/white-sparator.png')no-repeat}
+.footer p {margin:0;padding:0;text-align:right;color:#A49DB3;line-height:1.2;}
+
+.about {display:block;background:rgba(0,0,0,0.5);width:350px;position:absolute;left:210px;top:0;z-index:7;}
+
+.aboutt:before{content:'';top:-77px;left:0;display:block;width:350px;height:77px;background:url('../images/abouttTop.png')no-repeat;position:absolute;z-index:8}
+.aboutt:after{content:'';bottom:-77px;left:0;display:block;width:350px;height:77px;background:url('../images/abouttBot.png')no-repeat;position:absolute;z-index:1}
+.aboutt {margin-top:120px;background:#29174A url('../images/abouttMidd.png')repeat-y;padding:2rem 1.5rem;position:relative;z-index:9;}
+.aboutt h2 {margin:0 0 20px;color:#fff;text-transform:uppercase;font:normal 1.6vw 'lora';line-height:1;}
+.aboutt h2 span {font-weight:bold;font-size:2.6vw;margin:0;padding:0;}
+.aboutt p {margin:0;padding:0;color:#A49DB3;font-size:13px;}
+
+.owl-wrapper {display:block !important;}
+.servicesWrap {display:none !important;}
+.owl-item{z-index: 10;}
+.owl-image img {width: 100%;}
+.owl-image img:before{}
+.owl-text {position:absolute;z-index:11;bottom:0;right:15px;color: #fff;text-align:right;text-transform:uppercase;}
+.owl-text h3 {margin:0;padding:0;}
+.owl-text a {display:block;color:#fff;}
+.owl-text a span {font-size:20px;}
+
+.what {position:relative;bottom:0;z-index:9;background:#29174A url('../images/abouttMidd.png')repeat-y;height:100px;}
+.image1 { overflow: hidden;}
+.what h2 {margin:0;padding:0;position:absolute;left:15px;color:#fff;font:bold 30px 'lora';z-index:9;}
+
+.rightSide{display:block;background:rgba(0,0,0,0.5);position:absolute;right:0;top:0;width:200px;z-index:7;padding-top:80px;overflow:hidden;}
+.bookInner {position:relative;z-index:9;padding:1rem;background:#29174A url('../images/abouttMidd.png')repeat-y;}
+.bookInner:before{content:'';position:absolute;right:0;top:0;width:100%;height:100%;display:block;z-index:-1;}
+.bookInner h2 {margin:0;padding:0;font:normal 18px 'lora';text-transform:uppercase;color:#fff;}
+.booking, .events{position:relative;}
+.booking:before{content:'';top:-77px;left:0;display:block;width:350px;height:77px;background:url('../images/abouttTop.png')no-repeat;position:absolute;z-index:8}
+.events:after{content:'';bottom:-45px;left:0;display:block;width:350px;height:77px;background:url('../images/abouttBot.png')no-repeat;position:absolute;z-index:1}
+
+.bookForm, .dining, .events {}
+.bookForm label input {height:23px;background:url('../images/inputbg.jpg') repeat-x;border:1px solid #585858;width:100%;color:#000;line-height:1;}
+.data label {margin:0;color:#A49DB3;text-transform:capitalize;font-size:13px;width:100%;}
+.data label select {-webkit-appearance:none;appearance:none;-moz-appearance:none;height:23px;border:1px solid #585858;width:100%;margin-bottom:10px;color:#000;text-transform:capitalize;line-height:1;padding:0 10px;background-image:url('../images/selectArrow.jpg'), url('../images/inputbg.jpg');background-repeat: no-repeat, repeat-x;background-position: right center, top center;cursor:pointer;}
+.data label select.short{width:50px;}
+.data label input.short{width:50px;}
+.data.btnn {text-align:left;margin-top:15px;}
+.data.btnn button {text-align:left;border:0;color:#A49DB3;text-transform: uppercase;background:none;width:100%;}
+.data.btnn button span {float:right;line-height:1.5;}
+.data.btnn button:hover, .data.btnn button:hover span{color:#fff;}
+.data.col2 {width:48%;float:left;margin-right:10px;}
+.data.col2:nth-child(3n){margin-right:0;}
+.data.col2 label input {width:100%;margin:0 0 10px;}
+.data2.col2 {width:50%;float:left;}
+.data2.col2 label {font-size:11px;line-height:1;}
+.data2 label select {width:100%;margin:0;font-size:12px;}
+
+.header2 {position:absolute;z-index:9;left:210px;top:0;}
+.nav2{position:relative;float:right;z-index:9;background:#29174A;width:100%;}
+.nav2:after {content:'';position:absolute;top:-7px;right:-100%;height:7px;width:100%;display:block;background:#5d24a8;}
+.nav2 > ul{margin:0;padding:0;display: table-row;float:right;}
+.nav2 > ul > li{position:relative;list-style:none;display: table-cell;vertical-align:middle;text-align:center;transition: all 200ms ease-in-out;}
+.nav2 > ul > li a{text-transform:uppercase;display:block;color:#fff;margin-top:10px;text-decoration:none;transition: all 500ms ease-in-out;font-weight:400;line-height:1;font-size:0.9vw;padding:2px 10px 12px;}
+.nav2 > ul > li:hover:after{content:'';display:block;width:5px;height:5px;border-left: 5px solid transparent;border-right: 5px solid transparent;border-top: 5px solid rgba(255,255,255,0.5);position:absolute;left:40%;top:0;}
+.nav2 > ul > li:hover > a {color:#AF72FF;}
+
+.nav2 ul ul {display:none;position:absolute;left:-40px;top:38px;z-index:9;width:200px;}
+.nav2 ul ul li {list-style:none;text-align:left;}
+.nav2 ul ul li a {display:block;background:#29174A;margin:0;padding:10px;}
+.nav2 ul ul li:hover a {color:#AF72FF;}
+
+.bookBtn {position:absolute;top:4px;right:0;padding:10px;}
+.bookBtn > a {display:inline-block;font-size:16px; text-transform:uppercase;padding:10px 30px;background:#000;border:2px solid #5d24a8;text-decoration:none;transition: all 500ms ease-in-out;color:#fff;}
+.bookBtn:hover>  a {background:#fff;color:#000;border-color:#000;box-shadow: 0 0 5px 0px rgba(255,255,255,0.3);}
+
+.tabNav {margin:0;padding:0;position:absolute;left:0;top:-38px;width:100%;}
+.tabNav li {list-style:none;float:left;margin-right:2px;text-align:center;width:calc(100%/3.5);padding:3px 3px 0 3px;background:rgba(0,0,0,0.9);}
+.tabNav li:last-child{margin-right:0;}
+.tabNav li a {display:inline-block;text-decoration:none;text-transform:capitalize;font-size:14px;color:#fff;height:35px;line-height:35px;width:100%;}
+.tabNav li.active a, .tabNav li:hover a {background:rgba(133,100,177,0.4);}
+
+.tabContent .tabPane{display: none;}
+.tabContent .active {display: block;}
+
+.events ul{margin:0;padding:0;width:100%;}
+.events ul li{color:#A49DB3;font-size:14px;list-style:none;text-transform:capitalize;margin-bottom:15px;}
+.events ul li button {height: 23px;line-height: 1;float:right;background:url('../images/inputbg.jpg') repeat-x;color:#5d24a8;text-transform:uppercase;border:0;}
+
+.dining {min-height:100px;}
+.nmr {margin-right:0 !important;}
+
+.camera_wrap {z-index:7;}
+.camera_command_wrap {position:inherit !important;}
+.camera_thumbs_cont{position:absolute;z-index:9999;width: 150px;left: 0;top: 0;bottom: 0;background:rgba(0,0,0,0.5);padding:4rem 0 0;}
+.camera_thumbs_cont ul {margin:0 !important;width:150px !important;;}
+.camera_thumbs_cont ul li img{width:100px !important;border:0;}
+.camera_thumbs_cont ul li {display:block;margin-bottom:10px;}
+
+.logos {position:absolute;bottom:8px;right:0;}
+.logos ul {padding:0;margin:0;}
+.logos ul li {display:inline-block;margin-right:10px;}
+.logos ul li a img {max-width:50px;}
+
+.social {text-align:center;margin-bottom:50px;}
+.social ul {padding:0;margin:0;}
+.social ul li {display:inline-block;}
+.social ul li a {display:inline-block;color:#A49DB3;border-radius:100%;width:40px;height:40px;background:rgba(0, 0, 0, 0.58);text-align:center;line-height:2.5;}
+
+.choice {display:none;}
+
+.resto-select-content p img{width:100%;}
+
+.services h2{margin:0 0 20px;padding:0;text-transform:uppercase;text-align:center;color:#8564B1}
+
+.downBtn {position:absolute;left:50%;bottom:20px;}
+.down {display:inline-block;font-size:27px;border:2px solid #fff;color:#fff;z-index:99;width:50px;height:50px;border-radius:200px;text-align:center;bottom:20px;line-height:1.7;margin-left:-25px;}
+.down:hover {color:#fff;}
+
+main {padding-bottom:60px;/*border-top:2px solid #5d24a8;*/border-bottom:7px solid #212121;background:#111;}
+
+.grid-effect {width:100%;overflow:hidden;}
+.grid-effect img {width:100%;}
+.grid-effect h3 {margin:10px 0 5px;padding:0;font-size:18px;color:#fff;}
+.grid-effect p {font-size:14px;color:#fff;}
+.services {margin-top:-157px;}
+
+.sp_on {display:none;}

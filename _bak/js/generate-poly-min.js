@@ -1,0 +1,7 @@
+/*
+author: king aguirre
+date: 7-25-2015
+*/
+(function(c){c.fn.poly=function(h){return this.each(function(){var b=c(this),a="";b.height(b.parent().height());if("img"==b.data("fill-type")){var e="",f="";c('<img src="'+b.data("fill")+'"/>').load(function(){e=this.height/this.width*c(b).width();raw_img_width_ratio=this.width/this.height*c(b).height();f=e/b.height()*100;img_width_ratio=raw_img_width_ratio/b.width()*100;var g=(e-b.height())/e*-100,d=b.data("fill").split("/"),d=d[d.length-1];0<b.has("svg").length?(b.find("svg").attr("height",b.height()),
+b.find("image").attr("y",g),b.find("image").attr("height",f)):(a+='<svg class="animate-4" x="0" y="0" width="100%" height="'+b.height()+'" viewBox="0 0 100 100" preserveAspectRatio="none"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">',a+="<defs>",a+='<pattern id="'+d+'" width="1" height="1"  patternUnits="objectBoundingBox">',a+='<image x="0" y="'+g+'%" width="100" height="'+f.toFixed(0)+'"  preserveAspectRatio="none" xlink:href="'+b.data("fill")+'"></image>',a+=
+                                                               "</pattern>",a+="</defs>",a+='<polygon fill="url(#'+d+')" points="'+b.data("points")+'" >',a+="</svg>",b.append(a))})}else 0==b.has("svg").length&&(a+='<svg class="animate-4" x="0" y="0" width="100%" height="500" viewBox="0 0 100 100" preserveAspectRatio="none"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">',a+='<polygon fill="'+b.data("fill")+'" points="'+b.data("points")+'" >',a+="</svg>",b.append(a))})}})(jQuery);
